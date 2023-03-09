@@ -1,0 +1,73 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Linear Layout created for entire screen -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:id="@+id/inputValue">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="200dp"
+                    android:layout_height="50dp"
+                    android:hint="Enter a Value" />
+            </com.google.android.material.textfield.TextInputLayout>
+                <Spinner
+                    android:id="@+id/convertFrom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:entries="@array/convertFrom"/>
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:id="@+id/Output"
+                android:textAlignment="center"
+                android:text="Output"/>
+
+            <Spinner
+                android:id="@+id/convertTo"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:entries="@array/convertTo"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
+

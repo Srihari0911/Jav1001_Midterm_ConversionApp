@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">ConversionApp</string>
+    <!-- values for convertFrom spinner -->
     <string-array name="convertFrom">
         <item>Inches</item>
         <item>Centimeters</item>
@@ -9,7 +10,7 @@
         <item>Kelvin</item>
         <item>Fahrenheit</item>
     </string-array>
-
+    <!-- values for convertTo spinner -->
     <string-array name="convertTo">
         <item>Inches</item>
         <item>Centimeters</item>
